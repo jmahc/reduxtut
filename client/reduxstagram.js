@@ -20,8 +20,8 @@ Raven.config(sentry_url, {
     }
 }).install();
 
-Raven.captureMessage('Something bad happened!');
-Raven.showReportDialog();
+// Raven.captureMessage('Something bad happened!');
+// Raven.showReportDialog();
 
 // import react router deps
 import router from './components/Router';
